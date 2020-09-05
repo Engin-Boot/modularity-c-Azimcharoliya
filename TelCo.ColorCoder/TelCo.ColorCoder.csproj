@@ -2,9 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
-  </PropertyGroup>
-
+    <TargetFramework>netcoreapp3.1.1</TargetFramework>
+  </PropertyGroup>3
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.Metrics" Version="3.3.0" />
   </ItemGroup>
