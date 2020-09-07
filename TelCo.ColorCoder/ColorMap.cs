@@ -37,8 +37,8 @@ namespace TelCo.ColorCoder
         }
         internal static int GetPairNumberFromColor(ColorPair pair)
         {
-            int majorIndex = IndexHelper.getMajorIndex(pair, colorMapMajor);
-            int minorIndex = IndexHelper.getMinorIndex(pair, colorMapMinor);
+            int majorIndex = IndexHelper.getColorIndex(pair.MajorColor, colorMapMajor);
+            int minorIndex = IndexHelper.getColorIndex(pair.MinorColor, colorMapMinor);
             if (majorIndex == -1 || minorIndex == -1)
             {
                 throw new ArgumentException(
